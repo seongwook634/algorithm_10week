@@ -4,7 +4,7 @@ int binomialCoefficient(int n, int k) {
     if (k == 0 || k == n)
         return 1;
 
-    // Á¡È­½Ä: C(n, k) = C(n-1, k-1) + C(n-1, k)
+    // ì í™”ì‹: C(n, k) = C(n-1, k-1) + C(n-1, k)
     return binomialCoefficient(n - 1, k - 1) + binomialCoefficient(n - 1, k);
 }
 
@@ -24,4 +24,5 @@ int main() {
     std::cout << n << "C" << k << " = " << binomialCoefficient(n, k) << std::endl;
 
     return 0;
+
 }
