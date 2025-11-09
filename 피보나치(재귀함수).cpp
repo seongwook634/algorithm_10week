@@ -9,8 +9,9 @@ int fib(int n) {
 
 int main() {
     int n;
-    cout << "n ÀÔ·Â: ";
+    cout << "n ì…ë ¥: ";
     cin >> n;
     cout << fib(n);
     return 0;
+
 }
